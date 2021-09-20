@@ -1,0 +1,37 @@
+body {
+color: black;
+text-align: center;
+font-family: 'Grey Qo', cursive;
+background-color: linear-gradient(red,blue); 
+background-image: linear-gradient(red,blue);
+}
+
+img {
+width: 250px;
+margin: 25px;
+height: 250px;
+border-radius : 50%;
+}
+
+p {
+  color : wheat;
+  
+}
+
+h1 {
+  color: lightpink;
+}
+  
+.menu:hover {
+    list-style:square;
+    float:none
+    top: 10px;
+    right: 250px;
+    cursor: pointer;
+    color: lavenderblush;
+    font-family: fantasy;
+}
+
+html {
+    scroll-behavior: smooth;
+}
